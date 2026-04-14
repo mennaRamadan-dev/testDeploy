@@ -1,4 +1,4 @@
-import style from "./Comment.module.css";
+import style from "./comment.module.css";
 import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
