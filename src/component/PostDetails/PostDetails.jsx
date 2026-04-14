@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Comment from "./../comment/comment";
 import CreatCommentModal from "../CreatCommentModal/CreateCommentModal";
-import GetAllComments from "../GetAllComments/getallComments";
+import GetAllComments from "../GetAllComments/getAllComments";
 import DeletePosting from "./../DeletePosting/DeletePosting";
 import UpdatePost from "./../UpdatePost/UpdatePost";
 import { jwtDecode } from "jwt-decode";

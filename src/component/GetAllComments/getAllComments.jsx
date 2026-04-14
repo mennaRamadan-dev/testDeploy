@@ -22,7 +22,7 @@ export default function GetAllComments({ postId }) {
     enabled: !!postId,
   });
 
-//   console.log("GetAllComments response:", data);
+  //   console.log("GetAllComments response:", data);
 
   const comments =
     data?.data?.data?.comments ?? data?.data?.comments ?? data?.data ?? [];
